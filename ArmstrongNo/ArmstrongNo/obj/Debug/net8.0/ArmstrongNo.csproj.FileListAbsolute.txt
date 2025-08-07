@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\bin\Debug\net8.0\ArmstrongNo.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\bin\Debug\net8.0\ArmstrongNo.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\bin\Debug\net8.0\ArmstrongNo.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\bin\Debug\net8.0\ArmstrongNo.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\bin\Debug\net8.0\ArmstrongNo.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\refint\ArmstrongNo.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ArmstrongNo.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\ArmstrongNo\ArmstrongNo\obj\Debug\net8.0\ref\ArmstrongNo.dll
