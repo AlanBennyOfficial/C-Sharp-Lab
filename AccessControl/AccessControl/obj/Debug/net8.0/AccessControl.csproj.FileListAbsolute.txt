@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\bin\Debug\net8.0\AccessControl.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\bin\Debug\net8.0\AccessControl.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\bin\Debug\net8.0\AccessControl.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\bin\Debug\net8.0\AccessControl.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\bin\Debug\net8.0\AccessControl.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\refint\AccessControl.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\AccessControl.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\AccessControl\AccessControl\obj\Debug\net8.0\ref\AccessControl.dll
