@@ -1,0 +1,32 @@
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.exe
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.deps.json
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.runtimeconfig.json
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.dll
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.pdb
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.AssemblyInfoInputs.cache
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.AssemblyInfo.cs
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.dll
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\refint\InternalAccessModifiers.dll
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.pdb
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.genruntimeconfig.cache
+C:\Users\Lab3\Desktop\prem sanjana\lab4\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\ref\InternalAccessModifiers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\InternalAccessModifiers.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\refint\InternalAccessModifiers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\ref\InternalAccessModifiers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\ClassLibrary1.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\bin\Debug\net8.0\ClassLibrary1.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\InternalAccessModifiers.csproj.AssemblyReference.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\InternalAccessModifiers\InternalAccessModifiers\obj\Debug\net8.0\Internal.27685AC1.Up2Date
