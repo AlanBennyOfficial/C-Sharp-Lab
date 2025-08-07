@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\bin\Debug\net8.0\CheckNumber.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\bin\Debug\net8.0\CheckNumber.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\bin\Debug\net8.0\CheckNumber.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\bin\Debug\net8.0\CheckNumber.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\bin\Debug\net8.0\CheckNumber.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\refint\CheckNumber.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\CheckNumber.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\CheckNumber\CheckNumber\obj\Debug\net8.0\ref\CheckNumber.dll
