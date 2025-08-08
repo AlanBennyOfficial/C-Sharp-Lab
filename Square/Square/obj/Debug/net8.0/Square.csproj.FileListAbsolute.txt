@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\bin\Debug\net8.0\Square.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\bin\Debug\net8.0\Square.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\bin\Debug\net8.0\Square.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\bin\Debug\net8.0\Square.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\bin\Debug\net8.0\Square.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\refint\Square.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\Square.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Square\Square\obj\Debug\net8.0\ref\Square.dll
