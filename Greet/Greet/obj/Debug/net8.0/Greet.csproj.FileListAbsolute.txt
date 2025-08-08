@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\bin\Debug\net8.0\Greet.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\bin\Debug\net8.0\Greet.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\bin\Debug\net8.0\Greet.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\bin\Debug\net8.0\Greet.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\bin\Debug\net8.0\Greet.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\refint\Greet.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\Greet.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\Greet\Greet\obj\Debug\net8.0\ref\Greet.dll
