@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\bin\Debug\net8.0\LuckyTicketNumbers.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\bin\Debug\net8.0\LuckyTicketNumbers.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\bin\Debug\net8.0\LuckyTicketNumbers.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\bin\Debug\net8.0\LuckyTicketNumbers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\bin\Debug\net8.0\LuckyTicketNumbers.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\refint\LuckyTicketNumbers.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\LuckyTicketNumbers.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\LuckyTicketNumbers\LuckyTicketNumbers\obj\Debug\net8.0\ref\LuckyTicketNumbers.dll
