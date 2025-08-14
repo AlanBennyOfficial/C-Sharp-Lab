@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\bin\Debug\net8.0\SingleInheritance.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\refint\SingleInheritance.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\SingleInheritance.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\SingleInheritance\SingleInheritance\obj\Debug\net8.0\ref\SingleInheritance.dll
