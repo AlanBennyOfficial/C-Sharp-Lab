@@ -1,0 +1,14 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\bin\Debug\net8.0\OnlineCourseDetails.exe
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\bin\Debug\net8.0\OnlineCourseDetails.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\bin\Debug\net8.0\OnlineCourseDetails.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\bin\Debug\net8.0\OnlineCourseDetails.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\bin\Debug\net8.0\OnlineCourseDetails.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\refint\OnlineCourseDetails.dll
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\OnlineCourseDetails.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\OnlineCourseDetails\OnlineCourseDetails\obj\Debug\net8.0\ref\OnlineCourseDetails.dll
