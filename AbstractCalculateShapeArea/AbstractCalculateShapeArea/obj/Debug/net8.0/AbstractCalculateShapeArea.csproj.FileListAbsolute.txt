@@ -1,0 +1,4 @@
+C:\Users\Lab3\Documents\A6\C-Sharp\AbstractCalculateShapeArea\AbstractCalculateShapeArea\obj\Debug\net8.0\AbstractCalculateShapeArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp\AbstractCalculateShapeArea\AbstractCalculateShapeArea\obj\Debug\net8.0\AbstractCalculateShapeArea.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp\AbstractCalculateShapeArea\AbstractCalculateShapeArea\obj\Debug\net8.0\AbstractCalculateShapeArea.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp\AbstractCalculateShapeArea\AbstractCalculateShapeArea\obj\Debug\net8.0\AbstractCalculateShapeArea.csproj.CoreCompileInputs.cache
