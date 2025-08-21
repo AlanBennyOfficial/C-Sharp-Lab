@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\bin\Debug\net8.0\MultipleInheritance.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\bin\Debug\net8.0\MultipleInheritance.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\bin\Debug\net8.0\MultipleInheritance.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\bin\Debug\net8.0\MultipleInheritance.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\bin\Debug\net8.0\MultipleInheritance.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\refint\MultipleInheritance.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\MultipleInheritance.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\MultipleInheritance\MultipleInheritance\obj\Debug\net8.0\ref\MultipleInheritance.dll
