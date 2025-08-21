@@ -1,0 +1,14 @@
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\bin\Debug\net8.0\SealedClass&Method.exe
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\bin\Debug\net8.0\SealedClass&Method.deps.json
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\bin\Debug\net8.0\SealedClass&Method.runtimeconfig.json
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\bin\Debug\net8.0\SealedClass&Method.dll
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\bin\Debug\net8.0\SealedClass&Method.pdb
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.dll
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\refint\SealedClass&Method.dll
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.pdb
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\SealedClass&Method.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\SealedClass&Method\SealedClass&Method\obj\Debug\net8.0\ref\SealedClass&Method.dll
