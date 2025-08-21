@@ -3,12 +3,16 @@
     using System;
     abstract class Shape
     {
-        abstract public double CalculateArea();
+        public abstract double CalculateArea();
     }
-    abstract class Circle : Shape
+    class Circle : Shape
     {
-        public double radius;
-        public override double CalcuteArea(double radius)
+        private double radius;
+        public Circle(double radius)
+        {
+            this.radius = radius;
+        }
+        public override double CalculateArea()
         {
             return Math.PI * radius * radius;
         }
@@ -17,8 +21,8 @@
     {
         static void Main(string[] args)
         {
-            Shape c1 = new Circle();
-            Console.WriteLine($"Area of the circle: {c1.CalculateArea(5.0)}");
+            Shape c1 = new Circle(5.0);
+            Console.WriteLine("Area of the circle: "+ c1.CalculateArea());
             
         }
     }
