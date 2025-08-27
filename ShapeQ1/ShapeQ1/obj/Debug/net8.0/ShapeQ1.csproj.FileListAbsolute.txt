@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\bin\Debug\net8.0\ShapeQ1.exe
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\bin\Debug\net8.0\ShapeQ1.deps.json
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\bin\Debug\net8.0\ShapeQ1.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\bin\Debug\net8.0\ShapeQ1.dll
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\bin\Debug\net8.0\ShapeQ1.pdb
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.sourcelink.json
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.dll
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\refint\ShapeQ1.dll
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.pdb
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ShapeQ1.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\ShapeQ1\ShapeQ1\obj\Debug\net8.0\ref\ShapeQ1.dll

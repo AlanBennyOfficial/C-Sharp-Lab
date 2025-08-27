@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AreaAndPerimeterQ2/1.0.0": {
+        "runtime": {
+          "AreaAndPerimeterQ2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AreaAndPerimeterQ2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
