@@ -6,44 +6,44 @@
 
 class Shape
 {
-    public void Draw()
+    public virtual void Draw()
     {
         Console.WriteLine("Drawing a shape..");
     }
-    public void Erase()
+    public virtual void Erase()
     {
         Console.WriteLine("Erasing the Shape...");
     }
 }
 class Circle : Shape
 {
-    public void Draw()
+    public override void Draw()
     { 
         Console.WriteLine("Drawing a Circle..."); 
     }
-    public void Erase()
+    public override void Erase()
     {
         Console.WriteLine("Erasing the Circle...");
     }
 }
 class Triangle : Shape
 {
-    public void Draw()
+    public override void Draw()
     {
         Console.WriteLine("Drawing a Triangle...");
     }
-    public void Erase()
+    public override void Erase()
     {
         Console.WriteLine("Erasing the Triangle...");
     }
 }
 class Square : Shape
 {
-    public void Draw()
+    public override void Draw()
     {
         Console.WriteLine("Drawing a Square...");
     }
-    public void Erase()
+    public override void Erase()
     {
         Console.WriteLine("Erasing the Square...");
     }
@@ -52,8 +52,17 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Circle c1 = new Circle();
-        c1.Draw();
-        c1.Erase();
+        //Circle c1 = new Circle();
+        //c1.Draw();
+        //c1.Erase();
+
+        Shape[] lst = {new Circle(), new Triangle(), new Square()};
+
+        foreach (Shape s in lst)
+        {
+            s.Draw();
+            s.Erase();
+            Console.WriteLine();
+        }
     }
 }
