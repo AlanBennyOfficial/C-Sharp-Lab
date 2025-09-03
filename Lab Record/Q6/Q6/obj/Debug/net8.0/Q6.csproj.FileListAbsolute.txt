@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\bin\Debug\net8.0\Q6.exe
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\bin\Debug\net8.0\Q6.deps.json
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\bin\Debug\net8.0\Q6.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\bin\Debug\net8.0\Q6.dll
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\bin\Debug\net8.0\Q6.pdb
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.dll
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\refint\Q6.dll
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.pdb
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\Q6.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Lab Record\Q6\Q6\obj\Debug\net8.0\ref\Q6.dll
