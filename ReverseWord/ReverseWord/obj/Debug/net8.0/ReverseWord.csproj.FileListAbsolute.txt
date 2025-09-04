@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\bin\Debug\net8.0\ReverseWord.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\bin\Debug\net8.0\ReverseWord.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\bin\Debug\net8.0\ReverseWord.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\bin\Debug\net8.0\ReverseWord.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\bin\Debug\net8.0\ReverseWord.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\refint\ReverseWord.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ReverseWord.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\ReverseWord\ReverseWord\obj\Debug\net8.0\ref\ReverseWord.dll
