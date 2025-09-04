@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\bin\Debug\net8.0\PaymentDetails.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\bin\Debug\net8.0\PaymentDetails.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\bin\Debug\net8.0\PaymentDetails.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\bin\Debug\net8.0\PaymentDetails.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\bin\Debug\net8.0\PaymentDetails.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\refint\PaymentDetails.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\PaymentDetails.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PaymentDetails\PaymentDetails\obj\Debug\net8.0\ref\PaymentDetails.dll
