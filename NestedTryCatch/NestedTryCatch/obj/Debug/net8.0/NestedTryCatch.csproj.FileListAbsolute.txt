@@ -1,0 +1,15 @@
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\bin\Debug\net8.0\NestedTryCatch.exe
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\bin\Debug\net8.0\NestedTryCatch.deps.json
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\bin\Debug\net8.0\NestedTryCatch.runtimeconfig.json
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\bin\Debug\net8.0\NestedTryCatch.dll
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\bin\Debug\net8.0\NestedTryCatch.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.AssemblyInfoInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.AssemblyInfo.cs
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.csproj.CoreCompileInputs.cache
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.sourcelink.json
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.dll
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\refint\NestedTryCatch.dll
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.pdb
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\NestedTryCatch.genruntimeconfig.cache
+C:\Users\Lab3\Documents\A6\C-Sharp-Lab\NestedTryCatch\NestedTryCatch\obj\Debug\net8.0\ref\NestedTryCatch.dll
