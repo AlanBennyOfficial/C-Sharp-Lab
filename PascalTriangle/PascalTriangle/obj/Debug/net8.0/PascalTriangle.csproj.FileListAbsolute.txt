@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\bin\Debug\net8.0\PascalTriangle.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\bin\Debug\net8.0\PascalTriangle.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\bin\Debug\net8.0\PascalTriangle.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\bin\Debug\net8.0\PascalTriangle.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\bin\Debug\net8.0\PascalTriangle.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\refint\PascalTriangle.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\PascalTriangle.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\PascalTriangle\PascalTriangle\obj\Debug\net8.0\ref\PascalTriangle.dll
