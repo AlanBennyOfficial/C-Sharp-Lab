@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\bin\Debug\net8.0\CopyContentToAnotherFile.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\bin\Debug\net8.0\CopyContentToAnotherFile.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\bin\Debug\net8.0\CopyContentToAnotherFile.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\bin\Debug\net8.0\CopyContentToAnotherFile.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\bin\Debug\net8.0\CopyContentToAnotherFile.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\refint\CopyContentToAnotherFile.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\CopyContentToAnotherFile.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\CopyContentToAnotherFile\CopyContentToAnotherFile\obj\Debug\net8.0\ref\CopyContentToAnotherFile.dll
