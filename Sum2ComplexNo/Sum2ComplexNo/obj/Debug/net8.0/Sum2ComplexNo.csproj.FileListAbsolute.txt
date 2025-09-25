@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\bin\Debug\net8.0\Sum2ComplexNo.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\bin\Debug\net8.0\Sum2ComplexNo.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\bin\Debug\net8.0\Sum2ComplexNo.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\bin\Debug\net8.0\Sum2ComplexNo.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\bin\Debug\net8.0\Sum2ComplexNo.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\refint\Sum2ComplexNo.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\Sum2ComplexNo.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Sum2ComplexNo\Sum2ComplexNo\obj\Debug\net8.0\ref\Sum2ComplexNo.dll
