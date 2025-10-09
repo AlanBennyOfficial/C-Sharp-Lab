@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\bin\Debug\net8.0\Stack-Push&Pop-With-Get&Set.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\bin\Debug\net8.0\Stack-Push&Pop-With-Get&Set.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\bin\Debug\net8.0\Stack-Push&Pop-With-Get&Set.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\bin\Debug\net8.0\Stack-Push&Pop-With-Get&Set.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\bin\Debug\net8.0\Stack-Push&Pop-With-Get&Set.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\refint\Stack-Push&Pop-With-Get&Set.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\Stack-Push&Pop-With-Get&Set.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\Stack-Push&Pop-With-Get&Set\Stack-Push&Pop-With-Get&Set\obj\Debug\net8.0\ref\Stack-Push&Pop-With-Get&Set.dll
