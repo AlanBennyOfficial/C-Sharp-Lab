@@ -1,0 +1,15 @@
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.AssemblyInfo.cs
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.sourcelink.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\bin\Debug\net8.0\SingleCast-Delegate.exe
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\bin\Debug\net8.0\SingleCast-Delegate.deps.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\bin\Debug\net8.0\SingleCast-Delegate.runtimeconfig.json
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\bin\Debug\net8.0\SingleCast-Delegate.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\bin\Debug\net8.0\SingleCast-Delegate.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\refint\SingleCast-Delegate.dll
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.pdb
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\SingleCast-Delegate.genruntimeconfig.cache
+C:\Users\Student\Documents\A6\C-Sharp-Lab\SingleCast-Delegate\SingleCast-Delegate\obj\Debug\net8.0\ref\SingleCast-Delegate.dll
