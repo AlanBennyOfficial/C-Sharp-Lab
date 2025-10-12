@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\bin\Debug\net8.0\Seek.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\bin\Debug\net8.0\Seek.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\bin\Debug\net8.0\Seek.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\bin\Debug\net8.0\Seek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\bin\Debug\net8.0\Seek.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\refint\Seek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\Seek.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Seek\Seek\obj\Debug\net8.0\ref\Seek.dll

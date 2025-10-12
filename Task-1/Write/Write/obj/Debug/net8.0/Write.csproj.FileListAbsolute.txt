@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\bin\Debug\net8.0\Write.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\bin\Debug\net8.0\Write.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\bin\Debug\net8.0\Write.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\bin\Debug\net8.0\Write.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\bin\Debug\net8.0\Write.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\refint\Write.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\Write.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Write\Write\obj\Debug\net8.0\ref\Write.dll

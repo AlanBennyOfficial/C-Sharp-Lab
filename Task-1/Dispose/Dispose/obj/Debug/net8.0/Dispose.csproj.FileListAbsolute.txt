@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\bin\Debug\net8.0\Dispose.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\bin\Debug\net8.0\Dispose.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\bin\Debug\net8.0\Dispose.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\bin\Debug\net8.0\Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\bin\Debug\net8.0\Dispose.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\refint\Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\Dispose.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Dispose\Dispose\obj\Debug\net8.0\ref\Dispose.dll

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lab3\\Documents\\A6\\C-Sharp\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj": {}
+    "C:\\GitHub\\C-Sharp-Lab\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lab3\\Documents\\A6\\C-Sharp\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj": {
+    "C:\\GitHub\\C-Sharp-Lab\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab3\\Documents\\A6\\C-Sharp\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj",
+        "projectUniqueName": "C:\\GitHub\\C-Sharp-Lab\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj",
         "projectName": "OnlineCourseDetails",
-        "projectPath": "C:\\Users\\Lab3\\Documents\\A6\\C-Sharp\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj",
-        "packagesPath": "C:\\Users\\Lab3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab3\\Documents\\A6\\C-Sharp\\OnlineCourseDetails\\OnlineCourseDetails\\obj\\",
+        "projectPath": "C:\\GitHub\\C-Sharp-Lab\\OnlineCourseDetails\\OnlineCourseDetails\\OnlineCourseDetails.csproj",
+        "packagesPath": "C:\\Users\\alanb\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\C-Sharp-Lab\\OnlineCourseDetails\\OnlineCourseDetails\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lab3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

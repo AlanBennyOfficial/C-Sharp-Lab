@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\bin\Debug\net8.0\ReadLine.exe
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\bin\Debug\net8.0\ReadLine.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\bin\Debug\net8.0\ReadLine.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\bin\Debug\net8.0\ReadLine.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\bin\Debug\net8.0\ReadLine.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\refint\ReadLine.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ReadLine.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadLine\ReadLine\obj\Debug\net8.0\ref\ReadLine.dll

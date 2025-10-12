@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\bin\Debug\net8.0\ReadToEnd.exe
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\bin\Debug\net8.0\ReadToEnd.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\bin\Debug\net8.0\ReadToEnd.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\bin\Debug\net8.0\ReadToEnd.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\bin\Debug\net8.0\ReadToEnd.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\refint\ReadToEnd.dll
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ReadToEnd.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\ReadToEnd\ReadToEnd\obj\Debug\net8.0\ref\ReadToEnd.dll

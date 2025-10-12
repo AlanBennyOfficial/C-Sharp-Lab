@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\bin\Debug\net8.0\Read-Close.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\bin\Debug\net8.0\Read-Close.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\bin\Debug\net8.0\Read-Close.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\bin\Debug\net8.0\Read-Close.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\bin\Debug\net8.0\Read-Close.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\refint\Read-Close.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\Read-Close.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Close\Read-Close\obj\Debug\net8.0\ref\Read-Close.dll

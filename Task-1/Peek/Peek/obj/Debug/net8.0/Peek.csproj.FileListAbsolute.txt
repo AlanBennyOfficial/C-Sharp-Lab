@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\bin\Debug\net8.0\Peek.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\bin\Debug\net8.0\Peek.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\bin\Debug\net8.0\Peek.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\bin\Debug\net8.0\Peek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\bin\Debug\net8.0\Peek.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\refint\Peek.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\Peek.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Peek\Peek\obj\Debug\net8.0\ref\Peek.dll

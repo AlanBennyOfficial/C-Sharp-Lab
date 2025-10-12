@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\bin\Debug\net8.0\Flush.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\bin\Debug\net8.0\Flush.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\bin\Debug\net8.0\Flush.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\bin\Debug\net8.0\Flush.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\bin\Debug\net8.0\Flush.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\refint\Flush.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\Flush.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Flush\Flush\obj\Debug\net8.0\ref\Flush.dll

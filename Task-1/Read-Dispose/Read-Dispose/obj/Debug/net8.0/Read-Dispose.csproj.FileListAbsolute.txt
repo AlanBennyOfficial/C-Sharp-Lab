@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\bin\Debug\net8.0\Read-Dispose.exe
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\bin\Debug\net8.0\Read-Dispose.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\bin\Debug\net8.0\Read-Dispose.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\bin\Debug\net8.0\Read-Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\bin\Debug\net8.0\Read-Dispose.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\refint\Read-Dispose.dll
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\Read-Dispose.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\Read-Dispose\Read-Dispose\obj\Debug\net8.0\ref\Read-Dispose.dll

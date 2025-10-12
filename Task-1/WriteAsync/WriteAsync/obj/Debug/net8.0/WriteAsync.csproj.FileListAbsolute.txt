@@ -1,0 +1,15 @@
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\bin\Debug\net8.0\WriteAsync.exe
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\bin\Debug\net8.0\WriteAsync.deps.json
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\bin\Debug\net8.0\WriteAsync.runtimeconfig.json
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\bin\Debug\net8.0\WriteAsync.dll
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\bin\Debug\net8.0\WriteAsync.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.AssemblyInfoInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.AssemblyInfo.cs
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.csproj.CoreCompileInputs.cache
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.sourcelink.json
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.dll
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\refint\WriteAsync.dll
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.pdb
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\WriteAsync.genruntimeconfig.cache
+C:\GitHub\C-Sharp-Lab\Task-1\WriteAsync\WriteAsync\obj\Debug\net8.0\ref\WriteAsync.dll
