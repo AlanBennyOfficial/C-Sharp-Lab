@@ -1,0 +1,15 @@
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\bin\Debug\net8.0\LINQ-Select.exe
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\bin\Debug\net8.0\LINQ-Select.deps.json
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\bin\Debug\net8.0\LINQ-Select.runtimeconfig.json
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\bin\Debug\net8.0\LINQ-Select.dll
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\bin\Debug\net8.0\LINQ-Select.pdb
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.AssemblyInfoInputs.cache
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.AssemblyInfo.cs
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.csproj.CoreCompileInputs.cache
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.sourcelink.json
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.dll
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\refint\LINQ-Select.dll
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.pdb
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\LINQ-Select.genruntimeconfig.cache
+C:\Users\BCA 41\Documents\A6\C-Sharp-Lab\LINQ-Select\obj\Debug\net8.0\ref\LINQ-Select.dll
