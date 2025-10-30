@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LINQ-Where/1.0.0": {
+        "runtime": {
+          "LINQ-Where.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQ-Where/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
