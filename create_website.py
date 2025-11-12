@@ -370,6 +370,60 @@ def main():
             font-size: 1.5em;
         }}
         
+        .modal-actions {{
+            display: flex;
+            gap: 0.5em;
+            align-items: center;
+        }}
+        
+        .copy-btn {{
+            padding: 0.6em 1.2em;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9em;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5em;
+        }}
+        
+        .copy-btn:hover {{
+            background: #218838;
+            transform: scale(1.05);
+        }}
+        
+        .copy-btn.copied {{
+            background: #6c757d;
+        }}
+        
+        .copy-feedback {{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 1em 1.5em;
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            animation: slideInRight 0.3s ease;
+            z-index: 2000;
+        }}
+        
+        @keyframes slideInRight {{
+            from {{
+                transform: translateX(400px);
+                opacity: 0;
+            }}
+            to {{
+                transform: translateX(0);
+                opacity: 1;
+            }}
+        }}
+        
         .close-btn {{
             font-size: 1.8em;
             font-weight: bold;
@@ -497,6 +551,16 @@ def main():
                 font-size: 0.75em;
                 margin-right: 0.3em;
             }}
+            
+            .modal-actions {{
+                flex-direction: column;
+                width: 100%;
+            }}
+            
+            .copy-btn {{
+                width: 100%;
+                justify-content: center;
+            }}
         }}
     </style>
 </head>
@@ -535,8 +599,7 @@ def main():
                     </tr>
                 </thead>
                 <tbody id="tableBody">
-{table_rows}
-                </tbody>
+{table_rows}                </tbody>
             </table>
         </div>
     </div>
@@ -546,7 +609,12 @@ def main():
         <div class="modal-content" onclick="event.stopPropagation()">
             <div class="modal-header">
                 <h2 id="modalTitle">Program.cs</h2>
-                <button class="close-btn" onclick="closeModal()">&times;</button>
+                <div class="modal-actions">
+                    <button class="copy-btn" id="copyBtn" onclick="copyCodeToClipboard()">
+                        <span id="copyBtnText">📋 Copy Code</span>
+                    </button>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
             </div>
             <pre id="codeViewer"><code id="codeContent" class="language-csharp"></code></pre>
         </div>
@@ -562,19 +630,66 @@ def main():
         
         let currentSort = {{column: -1, ascending: true}};
         let searchTerm = '';
+        let currentCodeIndex = -1;
         
         function viewCode(idx) {{
             if (idx >= 0 && idx < codes.length) {{
+                currentCodeIndex = idx;
                 document.getElementById('modalTitle').textContent = names[idx] + ' - Program.cs';
                 const codeElement = document.getElementById('codeContent');
                 codeElement.textContent = codes[idx];
                 codeElement.className = 'language-csharp';
                 
-                // Highlight the code
-                hljs.highlightElement(codeElement);
+                // Reset copy button state
+                const copyBtn = document.getElementById('copyBtn');
+                copyBtn.classList.remove('copied');
+                document.getElementById('copyBtnText').textContent = '📋 Copy Code';
                 
+                // Show modal first
                 document.getElementById('codeModal').classList.add('show');
+                
+                // Highlight the code after a small delay to ensure DOM is updated
+                setTimeout(() => {{
+                    hljs.highlightElement(codeElement);
+                }}, 10);
             }}
+        }}
+        
+        function copyCodeToClipboard() {{
+            if (currentCodeIndex >= 0 && currentCodeIndex < codes.length) {{
+                const code = codes[currentCodeIndex];
+                navigator.clipboard.writeText(code).then(() => {{
+                    const copyBtn = document.getElementById('copyBtn');
+                    const copyBtnText = document.getElementById('copyBtnText');
+                    
+                    // Show feedback
+                    copyBtn.classList.add('copied');
+                    copyBtnText.textContent = '✅ Copied!';
+                    
+                    // Show notification
+                    showCopyFeedback();
+                    
+                    // Reset button after 2 seconds
+                    setTimeout(() => {{
+                        copyBtn.classList.remove('copied');
+                        copyBtnText.textContent = '📋 Copy Code';
+                    }}, 2000);
+                }}).catch(err => {{
+                    console.error('Failed to copy:', err);
+                    alert('Failed to copy code. Please try again.');
+                }});
+            }}
+        }}
+        
+        function showCopyFeedback() {{
+            const feedback = document.createElement('div');
+            feedback.className = 'copy-feedback';
+            feedback.textContent = '✅ Code copied to clipboard!';
+            document.body.appendChild(feedback);
+            
+            setTimeout(() => {{
+                feedback.remove();
+            }}, 3000);
         }}
         
         function openGitHub(idx) {{
@@ -586,6 +701,7 @@ def main():
         function closeModal(event) {{
             if (!event || event.target.id === 'codeModal' || event.target.classList.contains('close-btn')) {{
                 document.getElementById('codeModal').classList.remove('show');
+                currentCodeIndex = -1;
             }}
         }}
         
