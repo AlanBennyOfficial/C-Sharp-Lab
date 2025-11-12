@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>C# Programs</title>
+    <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+    h1 { padding: 1em; margin: 0; background:#333; color:#fff; }
+    table { border-collapse: collapse; width: 90%; margin: 2em auto; background: #fff; }
+    th, td { border: 1px solid #ccc; padding: .5em 1em; }
+    th { cursor: pointer; background-color: #eee; }
+    tr:hover td { background: #f0f8ff; }
+    button { font-size: 1em; padding: 0.3em 0.8em; }
+    .modal {
+        display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,.7); align-items: center; justify-content: center;
+    }
+    .modal-content {
+        background: #fff; padding: 2em; max-width: 80vw; max-height: 80vh; overflow: auto; border-radius: 10px;
+    }
+    pre { white-space: pre-wrap; word-break: break-all; background: #eee; padding:1em; max-height: 60vh; overflow:auto; }
+    .close-btn { float:right; font-size:1.5em; margin:-1em -1em 0 0; cursor:pointer; }
+    </style>
+</head>
+<body>
+    <h1>C# Program.cs Files (Sortable Table)</h1>
+    <table id="progTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Project/Folder &#8597;</th>
+                <th onclick="sortTable(1)">Relative Path &#8597;</th>
+                <th onclick="sortTable(2)">Last Commit Date &#8597;</th>
+                <th>View Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div id="codeModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal(event)">&times;</span>
+            <pre id="codeViewer"></pre>
+        </div>
+    </div>
+<script>
+let codes = [];
+// Table sort
+function sortTable(n) {
+    let table = document.getElementById("progTable");
+    let rows = Array.from(table.rows).slice(1); // skip header
+    let asc = !table.dataset['sort'+n] || table.dataset['sort'+n]=='desc';
+    rows.sort(function(a, b) {
+        let x = a.cells[n].innerText.toLowerCase();
+        let y = b.cells[n].innerText.toLowerCase();
+        // For date column: compare ISO string
+        if(n==2) return asc ? x.localeCompare(y) : y.localeCompare(x);
+        return asc ? (x>y?1:x<y?-1:0) : (y>x?1:y<x?-1:0);
+    });
+    table.tBodies[0].innerHTML = '';
+    for(let r of rows) table.tBodies[0].appendChild(r);
+    table.dataset['sort'+n] = asc?'asc':'desc';
+}
+// Code viewer modal
+function viewCode(idx) {
+    document.getElementById('codeViewer').innerText = codes[idx];
+    document.getElementById('codeModal').style.display = 'flex';
+}
+function closeModal(e) {
+    if(e.target.id == "codeModal" || e.target.classList.contains('close-btn')) {
+        document.getElementById('codeModal').style.display = 'none';
+    }
+}
+</script>
+</body>
+</html>
