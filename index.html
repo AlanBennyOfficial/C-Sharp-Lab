@@ -1,77 +1,1089 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>C# Programs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# Program.cs Browser - 53 Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
-    h1 { padding: 1em; margin: 0; background:#333; color:#fff; }
-    table { border-collapse: collapse; width: 90%; margin: 2em auto; background: #fff; }
-    th, td { border: 1px solid #ccc; padding: .5em 1em; }
-    th { cursor: pointer; background-color: #eee; }
-    tr:hover td { background: #f0f8ff; }
-    button { font-size: 1em; padding: 0.3em 0.8em; }
-    .modal {
-        display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%;
-        background: rgba(0,0,0,.7); align-items: center; justify-content: center;
-    }
-    .modal-content {
-        background: #fff; padding: 2em; max-width: 80vw; max-height: 80vh; overflow: auto; border-radius: 10px;
-    }
-    pre { white-space: pre-wrap; word-break: break-all; background: #eee; padding:1em; max-height: 60vh; overflow:auto; }
-    .close-btn { float:right; font-size:1.5em; margin:-1em -1em 0 0; cursor:pointer; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2em;
+            border-radius: 10px;
+            margin-bottom: 2em;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 0.5em;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 10px;
+            padding: 2em;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .controls {
+            display: flex;
+            gap: 1em;
+            margin-bottom: 2em;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .controls button {
+            padding: 0.7em 1.5em;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .controls button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .search-box {
+            flex-grow: 1;
+            min-width: 200px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 0.7em;
+            font-size: 1em;
+            border: 2px solid #667eea;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: #764ba2;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .stats {
+            color: #666;
+            font-size: 0.95em;
+            padding: 0.5em 1em;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+        
+        .table-wrapper {
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2em;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        th {
+            padding: 1.2em;
+            text-align: left;
+            font-weight: 600;
+            -webkit-user-select: none;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.3s;
+            position: relative;
+        }
+        
+        th:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        th.sortable::after {
+            content: ' ⇅';
+            opacity: 0.5;
+            margin-left: 0.5em;
+        }
+        
+        th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+            color: #ffff00;
+        }
+        
+        th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+            color: #ffff00;
+        }
+        
+        td {
+            padding: 1em 1.2em;
+            border-bottom: 1px solid #e5e5e5;
+            color: #333;
+        }
+        
+        tbody tr {
+            transition: all 0.2s;
+        }
+        
+        tbody tr:hover {
+            background: #f9f9f9;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        tbody tr.hidden {
+            display: none;
+        }
+        
+        .view-btn, .link-btn {
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+            font-size: 0.85em;
+            margin-right: 0.5em;
+        }
+        
+        .view-btn {
+            background: #667eea;
+            color: white;
+        }
+        
+        .view-btn:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+        
+        .link-btn {
+            background: #1f6feb;
+            color: white;
+        }
+        
+        .link-btn:hover {
+            background: #388bfd;
+            transform: scale(1.05);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            overflow-y: auto;
+        }
+        
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background: white;
+            padding: 2em;
+            border-radius: 10px;
+            max-width: 90vw;
+            max-height: 90vh;
+            overflow: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5em;
+            padding-bottom: 1em;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .modal-header h2 {
+            color: #333;
+            margin: 0;
+            font-size: 1.5em;
+        }
+        
+        .close-btn {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #999;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+        
+        .close-btn:hover {
+            background: #f0f0f0;
+            color: #333;
+        }
+        
+        /* Syntax highlighting styles */
+        pre {
+            background: #1e1e1e;
+            padding: 1.5em;
+            border-radius: 5px;
+            overflow: auto;
+            font-family: 'Courier New', 'Courier', monospace;
+            font-size: 0.95em;
+            line-height: 1.6;
+            max-height: 65vh;
+            margin: 0;
+        }
+        
+        code {
+            color: #d4d4d4;
+        }
+        
+        .hljs {
+            background: #1e1e1e !important;
+            color: #d4d4d4 !important;
+        }
+        
+        .hljs-string {
+            color: #ce9178 !important;
+        }
+        
+        .hljs-number {
+            color: #b5cea8 !important;
+        }
+        
+        .hljs-literal {
+            color: #569cd6 !important;
+        }
+        
+        .hljs-attr {
+            color: #9cdcfe !important;
+        }
+        
+        .hljs-title {
+            color: #4ec9b0 !important;
+        }
+        
+        .hljs-params {
+            color: #9cdcfe !important;
+        }
+        
+        .hljs-keyword {
+            color: #569cd6 !important;
+        }
+        
+        .hljs-built_in {
+            color: #4ec9b0 !important;
+        }
+        
+        .hljs-type {
+            color: #4ec9b0 !important;
+        }
+        
+        .hljs-class {
+            color: #4ec9b0 !important;
+        }
+        
+        .hljs-comment {
+            color: #6a9955 !important;
+        }
+        
+        .info-message {
+            background: #e8f4f8;
+            border-left: 4px solid #0084d4;
+            padding: 1em;
+            margin-bottom: 1.5em;
+            border-radius: 4px;
+            color: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .controls {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                width: 100%;
+            }
+            
+            .container {
+                padding: 1em;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 0.7em;
+            }
+            
+            .view-btn, .link-btn {
+                padding: 0.4em 0.8em;
+                font-size: 0.75em;
+                margin-right: 0.3em;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>C# Program.cs Files (Sortable Table)</h1>
-    <table id="progTable">
-        <thead>
-            <tr>
-                <th onclick="sortTable(0)">Project/Folder &#8597;</th>
-                <th onclick="sortTable(1)">Relative Path &#8597;</th>
-                <th onclick="sortTable(2)">Last Commit Date &#8597;</th>
-                <th>View Source</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-    </table>
-    <div id="codeModal" class="modal" onclick="closeModal(event)">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeModal(event)">&times;</span>
-            <pre id="codeViewer"></pre>
+    <div class="header">
+        <h1>📚 C# Program.cs Browser</h1>
+        <p>AlanBennyOfficial/C-Sharp-Lab Repository</p>
+    </div>
+    
+    <div class="container">
+        <div class="info-message">
+            📊 Displaying all Program.cs files from your repository (including Lab Record subfolder)
+        </div>
+        
+        <div class="controls">
+            <button onclick="sortByName()">📁 Sort by Name</button>
+            <button onclick="sortByDate()">📅 Sort by Date</button>
+            <button onclick="resetSort()">🔄 Reset</button>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search projects..." onkeyup="filterTable()">
+            </div>
+            <div class="stats">
+                Total: <strong id="totalCount">53</strong> | 
+                Showing: <strong id="visibleCount">53</strong>
+            </div>
+        </div>
+        
+        <div class="table-wrapper">
+            <table id="progTable">
+                <thead>
+                    <tr>
+                        <th class="sortable" onclick="sortTable(0)">Project/Folder</th>
+                        <th class="sortable" onclick="sortTable(1)">File Path</th>
+                        <th class="sortable" onclick="sortTable(2)">Last Commit Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+    <tr data-index="0">
+        <td>AbstractCalculateShapeArea</td>
+        <td>AbstractCalculateShapeArea/AbstractCalculateShapeArea/Program.cs</td>
+        <td>2025-08-21 10:45:35</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(0)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(0)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="1">
+        <td>AccessControl</td>
+        <td>AccessControl/AccessControl/Program.cs</td>
+        <td>2025-08-07 10:47:28</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(1)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(1)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="2">
+        <td>AreaAndPerimeterQ2</td>
+        <td>AreaAndPerimeterQ2/AreaAndPerimeterQ2/Program.cs</td>
+        <td>2025-08-28 00:39:33</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(2)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(2)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="3">
+        <td>ArmstrongNo</td>
+        <td>ArmstrongNo/ArmstrongNo/Program.cs</td>
+        <td>2025-08-07 10:49:33</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(3)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(3)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="4">
+        <td>CheckNumber</td>
+        <td>CheckNumber/CheckNumber/Program.cs</td>
+        <td>2025-08-07 10:50:18</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(4)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(4)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="5">
+        <td>CheckNumber</td>
+        <td>Square/CheckNumber/Program.cs</td>
+        <td>2025-08-08 13:59:02</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(5)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(5)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="6">
+        <td>Close</td>
+        <td>Task-1/Close/Close/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(6)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(6)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="7">
+        <td>CopyContentToAnotherFile</td>
+        <td>CopyContentToAnotherFile/CopyContentToAnotherFile/Program.cs</td>
+        <td>2025-09-25 10:55:04</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(7)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(7)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="8">
+        <td>Dispose</td>
+        <td>Task-1/Dispose/Dispose/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(8)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(8)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="9">
+        <td>EncapsulationWithGetSetIncludingValidation</td>
+        <td>EncapsulationWithGetSetIncludingValidation/EncapsulationWithGetSetIncludingValidation/Program.cs</td>
+        <td>2025-08-14 10:02:17</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(9)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(9)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="10">
+        <td>Flush</td>
+        <td>Task-1/Flush/Flush/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(10)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(10)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="11">
+        <td>Greet</td>
+        <td>Greet/Greet/Program.cs</td>
+        <td>2025-08-08 13:57:28</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(11)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(11)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="12">
+        <td>InternalAccessModifiers</td>
+        <td>InternalAccessModifiers/InternalAccessModifiers/Program.cs</td>
+        <td>2025-08-07 10:51:37</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(12)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(12)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="13">
+        <td>lab1</td>
+        <td>lab1/lab1/Program.cs</td>
+        <td>2025-08-08 13:55:03</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(13)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(13)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="14">
+        <td>LINQ-OddOrEven</td>
+        <td>LINQ-OddOrEven/Program.cs</td>
+        <td>2025-10-30 10:54:07</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(14)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(14)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="15">
+        <td>LINQ-OrderBy</td>
+        <td>LINQ-OrderBy/Program.cs</td>
+        <td>2025-10-30 10:54:11</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(15)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(15)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="16">
+        <td>LINQ-Select</td>
+        <td>LINQ-Select/Program.cs</td>
+        <td>2025-10-30 10:54:17</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(16)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(16)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="17">
+        <td>LINQ-Where</td>
+        <td>LINQ-Where/Program.cs</td>
+        <td>2025-10-30 10:54:21</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(17)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(17)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="18">
+        <td>LuckyTicketNumbers</td>
+        <td>LuckyTicketNumbers/LuckyTicketNumbers/Program.cs</td>
+        <td>2025-08-14 10:11:50</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(18)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(18)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="19">
+        <td>MultiCast-Delegate</td>
+        <td>MultiCast-Delegate/MultiCast-Delegate/Program.cs</td>
+        <td>2025-10-09 10:45:42</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(19)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(19)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="20">
+        <td>MultipleInheritance</td>
+        <td>MultipleInheritance/MultipleInheritance/Program.cs</td>
+        <td>2025-08-21 10:05:21</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(20)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(20)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="21">
+        <td>NestedTryCatch</td>
+        <td>NestedTryCatch/NestedTryCatch/Program.cs</td>
+        <td>2025-09-18 10:10:13</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(21)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(21)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="22">
+        <td>OnlineCourseDetails</td>
+        <td>OnlineCourseDetails/OnlineCourseDetails/Program.cs</td>
+        <td>2025-08-14 10:20:47</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(22)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(22)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="23">
+        <td>PascalTriangle</td>
+        <td>PascalTriangle/PascalTriangle/Program.cs</td>
+        <td>2025-09-25 10:55:08</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(23)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(23)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="24">
+        <td>PaymentDetails</td>
+        <td>PaymentDetails/PaymentDetails/Program.cs</td>
+        <td>2025-09-04 10:09:53</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(24)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(24)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="25">
+        <td>Peek</td>
+        <td>Task-1/Peek/Peek/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(25)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(25)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="26">
+        <td>Q1</td>
+        <td>Lab Record/Q1/Q1/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(26)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(26)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="27">
+        <td>Q2</td>
+        <td>Lab Record/Q2/Q2/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(27)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(27)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="28">
+        <td>Q3</td>
+        <td>Lab Record/Q3/Q3/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(28)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(28)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="29">
+        <td>Q4</td>
+        <td>Lab Record/Q4/Q4/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(29)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(29)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="30">
+        <td>Q5</td>
+        <td>Lab Record/Q5/Q5/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(30)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(30)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="31">
+        <td>Q6</td>
+        <td>Lab Record/Q6/Q6/Program.cs</td>
+        <td>2025-09-03 23:35:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(31)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(31)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="32">
+        <td>Read</td>
+        <td>Task-1/Read/Read/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(32)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(32)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="33">
+        <td>Read-Close</td>
+        <td>Task-1/Read-Close/Read-Close/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(33)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(33)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="34">
+        <td>Read-Dispose</td>
+        <td>Task-1/Read-Dispose/Read-Dispose/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(34)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(34)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="35">
+        <td>ReadLine</td>
+        <td>Task-1/ReadLine/ReadLine/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(35)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(35)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="36">
+        <td>ReadToEnd</td>
+        <td>Task-1/ReadToEnd/ReadToEnd/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(36)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(36)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="37">
+        <td>ResizeableRectangleQ3</td>
+        <td>ResizeableRectangleQ3/ResizeableRectangleQ3/Program.cs</td>
+        <td>2025-08-28 00:39:33</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(37)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(37)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="38">
+        <td>Reverse</td>
+        <td>Reverse/Reverse/Program.cs</td>
+        <td>2025-08-08 13:56:09</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(38)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(38)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="39">
+        <td>ReverseWord</td>
+        <td>ReverseWord/ReverseWord/Program.cs</td>
+        <td>2025-09-04 10:35:33</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(39)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(39)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="40">
+        <td>SealedClass&Method</td>
+        <td>SealedClass&Method/SealedClass&Method/Program.cs</td>
+        <td>2025-08-21 09:58:08</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(40)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(40)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="41">
+        <td>Seek</td>
+        <td>Task-1/Seek/Seek/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(41)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(41)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="42">
+        <td>ShapeQ1</td>
+        <td>ShapeQ1/ShapeQ1/Program.cs</td>
+        <td>2025-08-28 10:53:05</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(42)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(42)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="43">
+        <td>SingleCast-Delegate</td>
+        <td>SingleCast-Delegate/SingleCast-Delegate/Program.cs</td>
+        <td>2025-10-09 10:44:46</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(43)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(43)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="44">
+        <td>SingleInheritance</td>
+        <td>SingleInheritance/SingleInheritance/Program.cs</td>
+        <td>2025-08-14 10:03:57</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(44)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(44)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="45">
+        <td>Square</td>
+        <td>Square/Square/Program.cs</td>
+        <td>2025-08-08 13:59:02</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(45)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(45)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="46">
+        <td>Stack-Push&Pop-With-Get&Set</td>
+        <td>Stack-Push&Pop-With-Get&Set/Stack-Push&Pop-With-Get&Set/Program.cs</td>
+        <td>2025-10-09 10:48:14</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(46)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(46)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="47">
+        <td>Sum2ComplexNo</td>
+        <td>Sum2ComplexNo/Sum2ComplexNo/Program.cs</td>
+        <td>2025-09-25 10:54:53</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(47)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(47)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="48">
+        <td>TryCatch</td>
+        <td>TryCatch/TryCatch/Program.cs</td>
+        <td>2025-09-18 09:42:45</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(48)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(48)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="49">
+        <td>Write</td>
+        <td>Task-1/Write/Write/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(49)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(49)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="50">
+        <td>WriteAsync</td>
+        <td>Task-1/WriteAsync/WriteAsync/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(50)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(50)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="51">
+        <td>WriteLine</td>
+        <td>Task-1/WriteLine/WriteLine/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(51)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(51)">🔗 Link</button>
+        </td>
+    </tr>
+    <tr data-index="52">
+        <td>WriteLineAsync</td>
+        <td>Task-1/WriteLineAsync/WriteLineAsync/Program.cs</td>
+        <td>2025-10-13 01:45:52</td>
+        <td>
+            <button class="view-btn" onclick="viewCode(52)">⚡ Quick View</button>
+            <br><br>
+            <button class="link-btn" onclick="openGitHub(52)">🔗 Link</button>
+        </td>
+    </tr>
+
+                </tbody>
+            </table>
         </div>
     </div>
-<script>
-let codes = [];
-// Table sort
-function sortTable(n) {
-    let table = document.getElementById("progTable");
-    let rows = Array.from(table.rows).slice(1); // skip header
-    let asc = !table.dataset['sort'+n] || table.dataset['sort'+n]=='desc';
-    rows.sort(function(a, b) {
-        let x = a.cells[n].innerText.toLowerCase();
-        let y = b.cells[n].innerText.toLowerCase();
-        // For date column: compare ISO string
-        if(n==2) return asc ? x.localeCompare(y) : y.localeCompare(x);
-        return asc ? (x>y?1:x<y?-1:0) : (y>x?1:y<x?-1:0);
-    });
-    table.tBodies[0].innerHTML = '';
-    for(let r of rows) table.tBodies[0].appendChild(r);
-    table.dataset['sort'+n] = asc?'asc':'desc';
-}
-// Code viewer modal
-function viewCode(idx) {
-    document.getElementById('codeViewer').innerText = codes[idx];
-    document.getElementById('codeModal').style.display = 'flex';
-}
-function closeModal(e) {
-    if(e.target.id == "codeModal" || e.target.classList.contains('close-btn')) {
-        document.getElementById('codeModal').style.display = 'none';
-    }
-}
-</script>
+
+    <!-- Modal for viewing code -->
+    <div id="codeModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 id="modalTitle">Program.cs</h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <pre id="codeViewer"><code id="codeContent" class="language-csharp"></code></pre>
+        </div>
+    </div>
+
+    <script>
+        // Data storage
+        const codes = ["\ufeffnamespace AbstractCalculateShapeArea\n{\n    using System;\n    abstract class Shape\n    {\n        public abstract double CalculateArea();\n    }\n    class Circle : Shape\n    {\n        private double radius;\n        public Circle(double radius)\n        {\n            this.radius = radius;\n        }\n        public override double CalculateArea()\n        {\n            return Math.PI * radius * radius;\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Shape c1 = new Circle(5.0);\n            Console.WriteLine(\"Area of the circle: \"+ c1.CalculateArea());\n            \n        }\n    }\n}\n", "\ufeffusing System;\n//using System.Diagnostics.CodeAnalysis;\n\n//class Age\n//{\n//    private int age;\n//    public void ShowAge(int age)\n//    {\n//        Console.WriteLine(\"Age = \" + age);\n//    }\n//}\n//class display\n//{\n//    static void Main(string[] args) { \n//        Age a = new Age();\n//        a.ShowAge(23);\n//    }\n//}\n\nclass Animal\n{\n    protected void MakeSound()\n    {\n        Console.WriteLine(\"Animal sounds...\");\n    }\n}\n\nclass Dog : Animal\n{\n    public void Bark()\n    {\n        MakeSound();\n        Console.WriteLine(\"Dog Sounds...\");\n    }\n}\nclass display\n{\n    static void Main(string[] args)\n    {\n        Dog d = new Dog();\n        d.Bark();\n    }\n}", "\ufeff/*\n * 2. Develop a C# program to create an abstract class Shape with abstract methods calculateArea()\n * and calculatePerimeter(). Create subclasses Circle and Triangle that extend the Shape class and \n * implement the respective methods to calculate the area and perimeter of each shape. \n */\nusing System;\nabstract class Shape\n{\n    public abstract void CalculateArea();\n    public abstract void CalculatePerimeter();\n}\nclass Circle(double r) : Shape\n{\n    public override void CalculateArea()\n    {\n        Console.WriteLine(\"Area = \" + 3.14 * r * r);\n    }\n    public override void CalculatePerimeter()\n    {\n        Console.WriteLine(\"Perimeter = \" + 2*3.14*r);\n    }\n}\nclass Triangle(double a, double b, double c, double h) : Shape\n{\n    public override void CalculateArea()\n    {\n        Console.WriteLine(\"Area = \" + 0.5*b*h);\n    }\n    public override void CalculatePerimeter()\n    {\n        Console.WriteLine(\"Perimeter = \" + a+b+c);\n    }\n}\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Triangle t1 = new Triangle(5.0, 10.0, 5.0, 10.0);\n        t1.CalculatePerimeter();\n        t1.CalculateArea();\n\n        Circle c1 = new Circle(5.0);\n        c1.CalculatePerimeter();\n        c1.CalculateArea();\n    }\n}", "\ufeffusing System;\n\npublic class HelloWorld\n{\n    public static void Main(string[] args)\n    {\n        Console.WriteLine(\"Enter a number:\");\n        int n = Convert.ToInt32(Console.ReadLine());\n        int temp = n;\n\n        int sum = 0;\n        int power = 0;\n        //Count the digits\n        while (n > 0)\n        {\n            power++;\n            n /= 10;\n        }\n        n = temp;\n        // Add the powers of each digit\n        while (n > 0)\n        {\n            sum += (int)Math.Pow(n % 10, power);\n            n /= 10;\n        }\n        if (temp == sum)\n        {\n            Console.WriteLine(\"It is an Armstrong Number!\");\n        }\n        else\n        {\n            Console.WriteLine(\"It is not an Armstrong Number!\");\n        }\n    }\n}", "\ufeffnamespace CheckNumber\n{\n    public class Program\n    {\n        static void Main(string[] args)\n        {\n            CheckNumber check = new CheckNumber();\n            check.Determine(-12);\n            check.Determine(9);\n            check.Determine(0);\n        }\n    }\n}\n", "\ufeffnamespace CheckNumber\n{\n    public class Program\n    {\n        static void Main(string[] args)\n        {\n           CheckNumber check = new CheckNumber();\n            check.DetermineSign(6);\n        }\n    }\n}\n", "\ufeffusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        var sw = new StreamWriter(\"Close.txt\");\n        sw.WriteLine(\"Hello World\");\n        sw.Close(); // closes writer and underlying stream\n    }\n}\n", "\ufeffnamespace CopyContentToAnotherFile\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            File.Copy(\"file1.txt\", \"file2.txt\");\n            Console.WriteLine(\"Execution Completed\");\n        }\n    }\n}\n", "\ufeffusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        var sw = new StreamWriter(\"DisposeWrite.txt\");\n        sw.WriteLine(\"Hello World\");\n        sw.Dispose(); // explicitly release resources\n    }\n}\n", "\ufeffnamespace EncapsulationWithGetSetIncludingValidation\n{\n    class Person\n    {\n        private string name;\n        private int age;\n        public string Name\n        {\n            get { return name; }\n            set\n            {\n                if (string.IsNullOrWhiteSpace(value))\n                {\n                    Console.WriteLine(\"Name cannot be null or empty.\");\n                }\n                name = value;\n            }\n        }\n        public int Age\n        {\n            get { return age; }\n            set\n            {\n                if (value < 0 || value > 120)\n                {\n                    Console.WriteLine(\"Age must be between 0 and 120.\");\n                }\n                age = value;\n            }\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Person p1 = new Person();\n            p1.Name = \"Alan\";\n            p1.Age = 20;\n            Console.WriteLine($\"Name: {p1.Name}, Age: {p1.Age}\");\n        }\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        var sw = new StreamWriter(\"Flush.txt\");\n        sw.Write(\"Hello\");    // written to buffer\n        sw.Flush();           // forces write to file immediately\n        Console.WriteLine(\"Data flushed to file.\");\n        sw.Close();\n    }\n}\n", "\ufeffnamespace Greet\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Greet greet = new Greet();\n            greet.SayHello(\" Keerthana\");\n        }\n    }\n}\n", "\ufeffusing System;\nusing ClassLibrary1;\nnamespace InternalAccessModifiers\n{\n    class Point\n    {\n        internal int x;\n        internal int y;\n\n        public void Test()\n        {\n            Console.WriteLine(\"Test() in point class\");\n            Console.WriteLine(\"Cerated a new point object inside\");\n        }\n    }\n\n    internal class Program:Point\n    {\n        static void Main(string[] args)\n        {\n            Point p = new Point();\n            Program p1 = new Program();\n            p1.Test();\n            p.Test();\n        }\n    }\n}\nnamespace N\n{\n    class Sample\n    {\n        public void Display()\n        {\n            InternalAccessModifiers.Point p = new InternalAccessModifiers.Point();\n        }\n    }\n}\n", "\ufeffusing System;\nclass car\n{\n    public string color;\n    public string model;\n    public void drive()\n    {\n        Console.WriteLine(\"i like driving\");\n    }\n    class program\n    {\n        static void Main()\n        {\n            car c = new car();\n            c.color = \"red\";\n            Console.WriteLine(\"color is\"+ c.color);\n            c.drive();\n\n\n\n\n\n\n        }\n    }\n\n}\n", "\ufeffnamespace LINQ_OddOrEven\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            List<int> list = new List<int>() { 253, 5, 54, 53, 4365 };\n\n            var result = list.OrderBy(x => x * x);\n\n            foreach (var r in result)\n            {\n                if (r % 2 == 0)\n                {\n                    Console.WriteLine(\"Even: \" + r);\n                }\n                else\n                {\n                    Console.WriteLine(\"Odd: \" +r);\n                }\n            }\n        }\n    }\n}\n", "\ufeffnamespace LINQ_OrderBy\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            List<int> list = new List<int>() { 253, 5, 54, 53, 4365 };\n\n            var result = list.OrderBy(x => x * x);\n\n            foreach (var r in result)\n            {\n                Console.WriteLine(r);\n            }\n        }\n    }\n}\n", "\ufeffnamespace LINQ_Select\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            List<int> list = new List<int>() { 1,2,3,4};\n\n            var result = list.Select(x => x*x );\n\n            foreach (var r in result)\n            {\n                Console.WriteLine(r);\n            }\n        }\n    }\n}\n", "\ufeffnamespace LINQ_Where\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            List<int> list = new List<int>() { 1, 2, 3, 4 };\n\n            var result = list.Where(x => x>2);\n\n            foreach (var r in result)\n            {\n                Console.WriteLine(r);\n            }\n        }\n    }\n}\n", "\ufeffnamespace LuckyTicketNumbers\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            // Print a list of lucky ticket numbers between 1 and 100, multiples of 4 and 6 are considered lucky.\n            Console.WriteLine(\"Lucky Ticket Numbers:\");\n            for(int i = 1; i <= 100; i++)\n            {\n                if (i % 4 == 0 && i % 6 == 0)\n                {\n                    Console.WriteLine(i);\n                }\n            }\n        }\n    }\n}\n", "\ufeffusing System;\n\ndelegate void MyDelegate();\nclass Program\n{\n    static void Method1()\n    {\n        Console.WriteLine(\"This is method 1\");\n    }\n    static void Method2()\n    {\n        Console.WriteLine(\"This is method 2\");\n    }\n    static void Main()\n    {\n        MyDelegate d= Method1;\n        d += Method2;\n        d();\n    }\n}", "\ufeffnamespace MultipleInheritance\n{\n    interface Cat\n    {\n        void MakeSound()\n        {\n            Console.WriteLine(\"Meow...\");\n        }\n    }\n    interface Dog\n    {\n        void MakeSound()\n        {\n            Console.WriteLine(\"Bark..\");\n        }\n    }\n    class Animal : Cat, Dog\n    {\n        public void MakeSound()\n        {\n            Console.WriteLine(\"Animal sounds...\");\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Animal a1 = new Animal();\n            a1.MakeSound();\n        }\n    }\n}\n", "\ufeffnamespace NestedTryCatch\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            int divisor = 0;\n            try\n            {\n                try\n                {\n                    int divideByZero = 6 / divisor;\n                }\n                catch (IndexOutOfRangeException e)\n                {\n                    Console.WriteLine(\"Inner catch is executed: \" + e.Message);\n                }\n            }\n            catch (DivideByZeroException ex)\n            {\n                Console.WriteLine(\"Outer catch executed: \" + ex.Message);\n            }\n        }\n    }\n}\n", "\ufeffnamespace OnlineCourseDetails\n{\n    class Study\n    {\n        protected void CourseDetails()\n        {\n            Console.WriteLine(\"This is a course on C# programming.\");\n        }\n    }\n    class OnlineCourse : Study\n    {\n        public void CourseInfo() \n        { \n            CourseDetails();\n            Console.WriteLine(\"This course is available online.\");\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            OnlineCourse o1 = new OnlineCourse();\n            o1.CourseInfo();\n        }\n    }\n}\n", "\ufeffnamespace PascalTriangle\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.Write(\"Enter the number of rows: \");\n            int rows = Convert.ToInt32(Console.ReadLine());\n\n            for (int i = 1; i <= rows; i++) // Outer loop for rows\n            {\n                // print leading spaces\n                for (int j = 1; j <= (rows - i); j++)\n                {\n                    Console.Write(\" \");\n                }\n\n                // print asterisks\n                for (int k = 1; k <= i; k++)\n                {\n                    Console.Write(\"1\");\n                }\n                Console.WriteLine(); // Move to the next line\n            }\n        }\n    }\n}\n", "\ufeffnamespace PaymentDetails\n{   \n    interface IPayment\n    {\n        public void MakePayment(double amount);\n    }\n    class CreditCardPayment:IPayment\n    {\n        public void MakePayment(double amount)\n        {\n            Console.WriteLine($\"Payment of INR {amount} made via Credit Card\");\n        }\n    }\n    class PayPalPayment:IPayment\n    {\n        public void MakePayment(double amount)\n        {\n            Console.WriteLine($\"Payment of INR {amount} made via PayPal\");\n        }\n    }\n    class UPIpayment : IPayment\n    {\n        public void MakePayment(double amount)\n        {\n            Console.WriteLine($\"Payment of INR {amount} made via UPI\");\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            CreditCardPayment c1 = new CreditCardPayment();\n            c1.MakePayment(5000.0);\n            Console.WriteLine();\n\n            PayPalPayment p1 = new PayPalPayment();\n            p1.MakePayment(2000.0);\n            Console.WriteLine() ;\n\n            UPIpayment u1 = new UPIpayment();\n            u1.MakePayment(1000.0);\n        }\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sr = new StreamReader(\"Peek.txt\"))\n        {\n            int p = sr.Peek();             // int for next char ('A')\n            Console.WriteLine($\"Peek: {(char)p} (int {p})\");\n        }\n    }\n}\n", "\ufeffusing System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.Write(\"Enter operator (+,-,*,/,%) : \");\n        char op = Console.ReadKey().KeyChar;\n        Console.WriteLine();\n        Console.Write(\"Enter first number: \");\n        double a = double.Parse(Console.ReadLine());\n        Console.Write(\"Enter second number: \");\n        double b = double.Parse(Console.ReadLine());\n        double res = 0;\n        switch (op)\n        {\n            case '+': res = a + b; break;\n            case '-': res = a - b; break;\n            case '*': res = a * b; break;\n            case '/': res = a / b; break;\n            case '%': res = a % b; break;\n            //default: Console.WriteLine(\"Invalid Operator!\");break;\n        }\n        Console.WriteLine(\"Result: \" + res);\n    }\n}", "\ufeffusing System;\n\nclass Program\n{\n    static void Main()\n    {\n        for (int i = 1; i <= 1000; i++)\n        {\n            int sum = 0, temp = i, len = i.ToString().Length;\n            while (temp > 0)\n            {\n                int digit = temp % 10;\n                sum += (int)Math.Pow(digit, len);\n                temp /= 10;\n            }\n            if (sum == i) Console.WriteLine(i);\n        }\n    }\n}", "\ufeffusing System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.Write(\"Enter string: \");\n        string s = Console.ReadLine();\n        for (int i = 0; i < s.Length; i++)\n        {\n            for (int j = i + 1; j <= s.Length; j++)\n            {\n                Console.WriteLine(s.Substring(i, j - i));\n            }\n        }\n    }\n}", "\ufeffclass Shape\n{\n    public virtual void Draw() => Console.WriteLine(\"Drawing a shape..\");\n    public virtual void Erase() => Console.WriteLine(\"Erasing the Shape...\");\n}\nclass Circle : Shape\n{\n    public override void Draw() => Console.WriteLine(\"Drawing a Circle...\");\n\n    public override void Erase() => Console.WriteLine(\"Erasing the Circle...\");\n}\nclass Triangle : Shape\n{\n    public override void Draw() => Console.WriteLine(\"Drawing a Triangle...\");\n    \n    public override void Erase() => Console.WriteLine(\"Erasing the Triangle...\");\n}\nclass Square : Shape\n{\n    public override void Draw() => Console.WriteLine(\"Drawing a Square...\");\n\n    public override void Erase() => Console.WriteLine(\"Erasing the Square...\");\n}\nclass Program\n{\n    public static void Main(string[] args)\n    {\n        //Circle c1 = new Circle();\n        //c1.Draw();\n        //c1.Erase();\n\n        Shape[] lst = { new Circle(), new Triangle(), new Square() };\n\n        foreach (Shape s in lst)\n        {\n            s.Draw();\n            s.Erase();\n            Console.WriteLine();\n        }\n    }\n}", "\ufeffusing System;\nabstract class Shape\n{\n    public abstract void CalculateArea();\n    public abstract void CalculatePerimeter();\n}\nclass Circle(double r) : Shape\n{\n    public override void CalculateArea() => Console.WriteLine(\"Area = \" + 3.14 * r * r);\n    \n    public override void CalculatePerimeter() => Console.WriteLine(\"Perimeter = \" + 2*3.14*r);\n}\nclass Triangle(double a, double b, double c, double h) : Shape\n{\n    public override void CalculateArea() => Console.WriteLine(\"Area = \" + 0.5*b*h);\n    \n    public override void CalculatePerimeter() => Console.WriteLine(\"Perimeter = \" + a+b+c);\n}\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Triangle t1 = new Triangle(5.0, 10.0, 6.0, 10.0); // a+b>c , a+c>b\n        t1.CalculatePerimeter();\n        t1.CalculateArea();\n\n        Circle c1 = new Circle(5.0);\n        c1.CalculatePerimeter();\n        c1.CalculateArea();\n    }\n}", "\ufeffpublic interface Resizable\n{\n    void resizeWidth(int width);\n    void resizeHeight(int height);\n}\npublic class Rectangle(int width, int height) : Resizable\n{\n    public void resizeWidth(int w)\n    {\n        Console.WriteLine($\"New width: {w}\");\n    }\n    public void resizeHeight(int h)\n    {\n        Console.WriteLine($\"New Height: {h}\");\n    }\n}\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Rectangle r1 = new Rectangle(10, 5);\n        r1.resizeWidth(15);\n        r1.resizeHeight(25);\n    }\n}", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sr = new StreamReader(\"Read.txt\"))\n        {\n            int value = sr.Read(); // numeric code of first char\n            Console.WriteLine($\"Read returned: {value} char: {(char)value}\");\n        }\n    }\n}\n", "\ufeffusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        var sr = new StreamReader(\"CloseReader.txt\");\n        string line = sr.ReadLine();\n        sr.Close(); // releases file handle\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        var sr = new StreamReader(\"DisposeRead.txt\");\n        string content = sr.ReadToEnd();\n        sr.Dispose(); // explicitly release resources\n\n        Console.WriteLine(content);\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sr = new StreamReader(\"ReadLine.txt\"))\n        {\n            string line = sr.ReadLine();\n            Console.WriteLine(line); // prints \"Hello World\"\n        }\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sr = new StreamReader(\"ReadToEnd.txt\"))\n        {\n            string all = sr.ReadToEnd();\n            Console.WriteLine(all); // prints entire file content\n        }\n    }\n}\n", "\ufeffpublic interface Resizeable\n{\n    void resizeWidth(int width);\n    void resizeHeight(int height);\n}\npublic class Rectangle(int width, int height) : Resizeable\n{\n    public void resizeWidth(int w)\n    {\n        Console.WriteLine($\"Resizing width of rectangle to {w}\");\n    }\n    public void resizeHeight(int h)\n    {\n        Console.WriteLine($\"Resizing height of rectangle to {h}\");\n    }\n}\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Rectangle r1 = new Rectangle(10,5);\n        r1.resizeWidth(10);\n        r1.resizeHeight(20);\n    }\n}", "\ufeffnamespace Reverse\n{\n    public class Program\n    {\n        static void Main(string[] args)\n        {\n            ReverseNumber rev = new ReverseNumber();\n            rev.Reverse(34578);\n        }\n    }\n}\n", "\ufeffusing System.ComponentModel.DataAnnotations;\n\nnamespace ReverseWord\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.Write(\"Enter your string: \");\n            string str = Console.ReadLine();\n\n            string[] arr = str.Split(\" \").ToArray();\n            for (int i = arr.Length - 1; i >= 0; i--)\n            {\n                Console.Write($\"{arr[i]} \");\n            }\n            \n        }\n    }\n}\n", "\ufeffsealed class Animal\n{\n    public string Name;\n    public int ageInMonth;\n\n    public void Move()\n    {\n        Console.WriteLine(\"Moving...\");\n    }\n    public void Eat()\n    {\n        Console.WriteLine(\"Eating...\");\n    }\n}\n\ninternal class Program\n{\n    static void Main(string[] args)\n    {\n        Animal a1 = new Animal();\n        a1.Name = \"Dog\";\n        a1.ageInMonth = 1;\n        a1.Move();\n        a1.Eat();\n    }\n}\n\n", "\ufeffusing System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        File.WriteAllText(\"SeekSimple.txt\", \"Hello World\"); // create file\n        var fs = new FileStream(\"SeekSimple.txt\", FileMode.Open, FileAccess.Read);\n        fs.Seek(5, SeekOrigin.Begin);                        // move past \"Hello\"\n        var sr = new StreamReader(fs);\n        Console.WriteLine(sr.ReadToEnd());                   // prints \"12345\"\n    }\n}\n", "\ufeff/*\n * 1. Develop a C# program to create a class named shape. Create three sub classes namely: \n * circle, triangle and square, each class has two member functions named draw () and erase (). \n * Demonstrate polymorphism concepts by developing suitable  methods, defining member data and main program. \n */\n\nclass Shape\n{\n    public virtual void Draw()\n    {\n        Console.WriteLine(\"Drawing a shape..\");\n    }\n    public virtual void Erase()\n    {\n        Console.WriteLine(\"Erasing the Shape...\");\n    }\n}\nclass Circle : Shape\n{\n    public override void Draw()\n    { \n        Console.WriteLine(\"Drawing a Circle...\"); \n    }\n    public override void Erase()\n    {\n        Console.WriteLine(\"Erasing the Circle...\");\n    }\n}\nclass Triangle : Shape\n{\n    public override void Draw()\n    {\n        Console.WriteLine(\"Drawing a Triangle...\");\n    }\n    public override void Erase()\n    {\n        Console.WriteLine(\"Erasing the Triangle...\");\n    }\n}\nclass Square : Shape\n{\n    public override void Draw()\n    {\n        Console.WriteLine(\"Drawing a Square...\");\n    }\n    public override void Erase()\n    {\n        Console.WriteLine(\"Erasing the Square...\");\n    }\n}\nclass Program\n{\n    public static void Main(string[] args)\n    {\n        //Circle c1 = new Circle();\n        //c1.Draw();\n        //c1.Erase();\n\n        Shape[] lst = {new Circle(), new Triangle(), new Square()};\n\n        foreach (Shape s in lst)\n        {\n            s.Draw();\n            s.Erase();\n            Console.WriteLine();\n        }\n    }\n}", "\ufeffusing System;\n\ndelegate void Greet();\nclass Program\n{\n    static void SayHello()\n    {\n        Console.WriteLine(\"Hello, Students!\");\n    }\n    static void Main()\n    {\n        Greet greetDeldate = SayHello;\n        greetDeldate();\n    }\n}", "\ufeffnamespace SingleInheritance\n{\n    public class Animal\n    {\n        public void Speak()\n        {\n            Console.WriteLine(\"Animal sounds\");\n        }\n    }\n    public class Dog : Animal\n    {\n        public void Bark()\n        {\n            Console.WriteLine(\"Bark!\");\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Dog d1 = new Dog();\n            d1.Speak();\n            d1.Bark();\n        }\n    }\n}\n", "\ufeffnamespace Square\n{\n    public class Program\n    {\n        static void Main(string[] args)\n        {\n            Square square = new Square();\n            square.FindSquare(5);\n\n        }\n    }\n}\n", "\ufeffusing System;\n\npublic class Stack\n{\n    private int[] items;\n    private int top = -1;\n\n    public int Size { get; set; }\n\n    public Stack(int size)\n    {\n        Size = size;\n        items = new int[Size];\n    }\n\n    public void Push(int value)\n    {\n        if (top == Size - 1)\n        {\n            Console.WriteLine(\"Stack overflow\");\n        }\n        else\n        {\n            items[++top] = value;\n        }\n    }\n\n    public int Pop()\n    {\n        if (top == -1)\n        {\n            Console.WriteLine(\"Stack underflow\");\n            return -1; // invalid value (-1) to indicate failure\n        }\n        else\n        {\n            return items[top--];\n        }\n    }\n}\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Stack s = new Stack(3);\n        s.Push(10);\n        s.Push(20);\n        s.Push(30);\n        Console.WriteLine(\"Pop: \" + s.Pop());\n        Console.WriteLine(\"Pop: \" + s.Pop());\n        Console.WriteLine(\"Pop: \" + s.Pop()); // Additional pop to test underflow\n    }\n}\n", "\ufeffnamespace Sum2ComplexNo\n{\n    public class Complex\n    {\n        public int real {  get; set; }\n        public int imaginary { get; set; }\n        public Complex(int r, int i)\n        {\n            real = r;\n            imaginary = i;\n        }\n        public static Complex operator +(Complex a, Complex b)\n        {\n            return new Complex(a.real+b.real, a.imaginary+b.imaginary);\n        }\n    }\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            Complex a = new Complex(10, 2);\n            Complex b = new Complex(20, 1);\n            Console.WriteLine(a + b);\n        }\n    }\n}\n", "\ufeffnamespace TryCatch\n{\n    internal class Program\n    {\n        static void Main(string[] args)\n        {\n            try\n            {\n                Console.Write(\"Enter the first number: \");\n                int num1 = Convert.ToInt32(Console.ReadLine());\n                Console.Write(\"Enter the second number: \");\n                int num2 = Convert.ToInt32(Console.ReadLine());\n                int result = num1 / num2;\n                Console.WriteLine($\"The result of {num1} divided by {num2} is {result}\");\n            }\n            catch (DivideByZeroException)\n            {\n                Console.WriteLine(\"Error: Cannot divide by zero!\");\n            }\n            catch (FormatException)\n            {\n                Console.WriteLine(\"Error: Invalid input format! Please enter numeric values.\");\n            }\n            catch (Exception ex)\n            {\n                Console.WriteLine($\"An unexpected error occurred: {ex.Message}\");\n            }\n            finally\n            {\n                Console.WriteLine(\"Execution completed.\");\n            }\n        }\n    }\n}\n", "\ufeffusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sw = new StreamWriter(\"Write.txt\"))\n        {\n            sw.Write(\"Hello World\"); // no newline\n        }\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\nusing System.Threading.Tasks;\n\nclass Program\n{\n    static async Task Main()\n    {\n        using (var sw = new StreamWriter(\"WriteAsync.txt\"))\n        {\n            await sw.WriteAsync(\"Hello Async (WriteAsync)\"); // writes without newline\n            await sw.FlushAsync();\n        }\n    }\n}\n", "\ufeffusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        using (var sw = new StreamWriter(\"WriteLine.txt\"))\n        {\n            sw.WriteLine(\"Hello World\"); // ends with newline\n        }\n    }\n}\n", "\ufeffusing System;\nusing System.IO;\nusing System.Threading.Tasks;\n\nclass Program\n{\n    static async Task Main()\n    {\n        using (var sw = new StreamWriter(\"WriteLineAsync.txt\"))\n        {\n            await sw.WriteLineAsync(\"Hello World\"); // writes with newline\n            await sw.FlushAsync();\n        }\n    }\n}\n"];
+        const names = ["AbstractCalculateShapeArea", "AccessControl", "AreaAndPerimeterQ2", "ArmstrongNo", "CheckNumber", "CheckNumber", "Close", "CopyContentToAnotherFile", "Dispose", "EncapsulationWithGetSetIncludingValidation", "Flush", "Greet", "InternalAccessModifiers", "lab1", "LINQ-OddOrEven", "LINQ-OrderBy", "LINQ-Select", "LINQ-Where", "LuckyTicketNumbers", "MultiCast-Delegate", "MultipleInheritance", "NestedTryCatch", "OnlineCourseDetails", "PascalTriangle", "PaymentDetails", "Peek", "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Read", "Read-Close", "Read-Dispose", "ReadLine", "ReadToEnd", "ResizeableRectangleQ3", "Reverse", "ReverseWord", "SealedClass&Method", "Seek", "ShapeQ1", "SingleCast-Delegate", "SingleInheritance", "Square", "Stack-Push&Pop-With-Get&Set", "Sum2ComplexNo", "TryCatch", "Write", "WriteAsync", "WriteLine", "WriteLineAsync"];
+        const paths = ["AbstractCalculateShapeArea/AbstractCalculateShapeArea/Program.cs", "AccessControl/AccessControl/Program.cs", "AreaAndPerimeterQ2/AreaAndPerimeterQ2/Program.cs", "ArmstrongNo/ArmstrongNo/Program.cs", "CheckNumber/CheckNumber/Program.cs", "Square/CheckNumber/Program.cs", "Task-1/Close/Close/Program.cs", "CopyContentToAnotherFile/CopyContentToAnotherFile/Program.cs", "Task-1/Dispose/Dispose/Program.cs", "EncapsulationWithGetSetIncludingValidation/EncapsulationWithGetSetIncludingValidation/Program.cs", "Task-1/Flush/Flush/Program.cs", "Greet/Greet/Program.cs", "InternalAccessModifiers/InternalAccessModifiers/Program.cs", "lab1/lab1/Program.cs", "LINQ-OddOrEven/Program.cs", "LINQ-OrderBy/Program.cs", "LINQ-Select/Program.cs", "LINQ-Where/Program.cs", "LuckyTicketNumbers/LuckyTicketNumbers/Program.cs", "MultiCast-Delegate/MultiCast-Delegate/Program.cs", "MultipleInheritance/MultipleInheritance/Program.cs", "NestedTryCatch/NestedTryCatch/Program.cs", "OnlineCourseDetails/OnlineCourseDetails/Program.cs", "PascalTriangle/PascalTriangle/Program.cs", "PaymentDetails/PaymentDetails/Program.cs", "Task-1/Peek/Peek/Program.cs", "Lab Record/Q1/Q1/Program.cs", "Lab Record/Q2/Q2/Program.cs", "Lab Record/Q3/Q3/Program.cs", "Lab Record/Q4/Q4/Program.cs", "Lab Record/Q5/Q5/Program.cs", "Lab Record/Q6/Q6/Program.cs", "Task-1/Read/Read/Program.cs", "Task-1/Read-Close/Read-Close/Program.cs", "Task-1/Read-Dispose/Read-Dispose/Program.cs", "Task-1/ReadLine/ReadLine/Program.cs", "Task-1/ReadToEnd/ReadToEnd/Program.cs", "ResizeableRectangleQ3/ResizeableRectangleQ3/Program.cs", "Reverse/Reverse/Program.cs", "ReverseWord/ReverseWord/Program.cs", "SealedClass&Method/SealedClass&Method/Program.cs", "Task-1/Seek/Seek/Program.cs", "ShapeQ1/ShapeQ1/Program.cs", "SingleCast-Delegate/SingleCast-Delegate/Program.cs", "SingleInheritance/SingleInheritance/Program.cs", "Square/Square/Program.cs", "Stack-Push&Pop-With-Get&Set/Stack-Push&Pop-With-Get&Set/Program.cs", "Sum2ComplexNo/Sum2ComplexNo/Program.cs", "TryCatch/TryCatch/Program.cs", "Task-1/Write/Write/Program.cs", "Task-1/WriteAsync/WriteAsync/Program.cs", "Task-1/WriteLine/WriteLine/Program.cs", "Task-1/WriteLineAsync/WriteLineAsync/Program.cs"];
+        const dates = ["2025-08-21 10:45:35", "2025-08-07 10:47:28", "2025-08-28 00:39:33", "2025-08-07 10:49:33", "2025-08-07 10:50:18", "2025-08-08 13:59:02", "2025-10-13 01:45:52", "2025-09-25 10:55:04", "2025-10-13 01:45:52", "2025-08-14 10:02:17", "2025-10-13 01:45:52", "2025-08-08 13:57:28", "2025-08-07 10:51:37", "2025-08-08 13:55:03", "2025-10-30 10:54:07", "2025-10-30 10:54:11", "2025-10-30 10:54:17", "2025-10-30 10:54:21", "2025-08-14 10:11:50", "2025-10-09 10:45:42", "2025-08-21 10:05:21", "2025-09-18 10:10:13", "2025-08-14 10:20:47", "2025-09-25 10:55:08", "2025-09-04 10:09:53", "2025-10-13 01:45:52", "2025-09-03 23:35:52", "2025-09-03 23:35:52", "2025-09-03 23:35:52", "2025-09-03 23:35:52", "2025-09-03 23:35:52", "2025-09-03 23:35:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-08-28 00:39:33", "2025-08-08 13:56:09", "2025-09-04 10:35:33", "2025-08-21 09:58:08", "2025-10-13 01:45:52", "2025-08-28 10:53:05", "2025-10-09 10:44:46", "2025-08-14 10:03:57", "2025-08-08 13:59:02", "2025-10-09 10:48:14", "2025-09-25 10:54:53", "2025-09-18 09:42:45", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52", "2025-10-13 01:45:52"];
+        const links = ["https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/AbstractCalculateShapeArea/AbstractCalculateShapeArea/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/AccessControl/AccessControl/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/AreaAndPerimeterQ2/AreaAndPerimeterQ2/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/ArmstrongNo/ArmstrongNo/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/CheckNumber/CheckNumber/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Square/CheckNumber/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Close/Close/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/CopyContentToAnotherFile/CopyContentToAnotherFile/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Dispose/Dispose/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/EncapsulationWithGetSetIncludingValidation/EncapsulationWithGetSetIncludingValidation/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Flush/Flush/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Greet/Greet/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/InternalAccessModifiers/InternalAccessModifiers/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/lab1/lab1/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/LINQ-OddOrEven/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/LINQ-OrderBy/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/LINQ-Select/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/LINQ-Where/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/LuckyTicketNumbers/LuckyTicketNumbers/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/MultiCast-Delegate/MultiCast-Delegate/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/MultipleInheritance/MultipleInheritance/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/NestedTryCatch/NestedTryCatch/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/OnlineCourseDetails/OnlineCourseDetails/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/PascalTriangle/PascalTriangle/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/PaymentDetails/PaymentDetails/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Peek/Peek/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q1/Q1/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q2/Q2/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q3/Q3/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q4/Q4/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q5/Q5/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Lab Record/Q6/Q6/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Read/Read/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Read-Close/Read-Close/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Read-Dispose/Read-Dispose/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/ReadLine/ReadLine/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/ReadToEnd/ReadToEnd/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/ResizeableRectangleQ3/ResizeableRectangleQ3/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Reverse/Reverse/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/ReverseWord/ReverseWord/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/SealedClass&Method/SealedClass&Method/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Seek/Seek/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/ShapeQ1/ShapeQ1/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/SingleCast-Delegate/SingleCast-Delegate/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/SingleInheritance/SingleInheritance/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Square/Square/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Stack-Push&Pop-With-Get&Set/Stack-Push&Pop-With-Get&Set/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Sum2ComplexNo/Sum2ComplexNo/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/TryCatch/TryCatch/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/Write/Write/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/WriteAsync/WriteAsync/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/WriteLine/WriteLine/Program.cs", "https://github.com/AlanBennyOfficial/C-Sharp-Lab/blob/main/Task-1/WriteLineAsync/WriteLineAsync/Program.cs"];
+        
+        let currentSort = {column: -1, ascending: true};
+        let searchTerm = '';
+        
+        function viewCode(idx) {
+            if (idx >= 0 && idx < codes.length) {
+                document.getElementById('modalTitle').textContent = names[idx] + ' - Program.cs';
+                const codeElement = document.getElementById('codeContent');
+                codeElement.textContent = codes[idx];
+                codeElement.className = 'language-csharp';
+                
+                // Highlight the code
+                hljs.highlightElement(codeElement);
+                
+                document.getElementById('codeModal').classList.add('show');
+            }
+        }
+        
+        function openGitHub(idx) {
+            if (idx >= 0 && idx < links.length) {
+                window.open(links[idx], '_blank');
+            }
+        }
+        
+        function closeModal(event) {
+            if (!event || event.target.id === 'codeModal' || event.target.classList.contains('close-btn')) {
+                document.getElementById('codeModal').classList.remove('show');
+            }
+        }
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
+        
+        function filterTable() {
+            searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('#tableBody tr');
+            let visibleCount = 0;
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    row.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    row.classList.add('hidden');
+                }
+            });
+            
+            document.getElementById('visibleCount').textContent = visibleCount;
+        }
+        
+        function sortTable(columnIndex) {
+            const tbody = document.getElementById('tableBody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            const headers = document.querySelectorAll('th.sortable');
+            
+            // Check if same column clicked
+            const ascending = currentSort.column !== columnIndex || !currentSort.ascending;
+            
+            rows.sort((a, b) => {
+                let aText = a.cells[columnIndex].textContent.trim();
+                let bText = b.cells[columnIndex].textContent.trim();
+                
+                // Date column special handling
+                if (columnIndex === 2) {
+                    const aDate = new Date(aText);
+                    const bDate = new Date(bText);
+                    if (!isNaN(aDate) && !isNaN(bDate)) {
+                        return ascending ? aDate - bDate : bDate - aDate;
+                    }
+                }
+                
+                // String comparison
+                const comp = aText.localeCompare(bText);
+                return ascending ? comp : -comp;
+            });
+            
+            // Re-append rows
+            rows.forEach(row => tbody.appendChild(row));
+            
+            // Update header indicators
+            headers.forEach((header, idx) => {
+                header.classList.remove('sort-asc', 'sort-desc');
+            });
+            
+            if (headers[columnIndex]) {
+                headers[columnIndex].classList.add(ascending ? 'sort-asc' : 'sort-desc');
+            }
+            
+            currentSort = {column: columnIndex, ascending: ascending};
+        }
+        
+        function sortByName() {
+            sortTable(0);
+        }
+        
+        function sortByDate() {
+            sortTable(2);
+        }
+        
+        function resetSort() {
+            location.reload();
+        }
+    </script>
 </body>
 </html>
